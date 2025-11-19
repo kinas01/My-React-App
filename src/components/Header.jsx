@@ -1,11 +1,9 @@
-
-
 function Header() {
-    return (
-     <Header style={{ background: "#222", padding: "15px", color: "#fff" }}>
-        <h1>My React App</h1>
-     </Header>
-    );
+  return (
+    <header>
+      <h1>My Shopping Home</h1>
+    </header>
+  );
 }
 
 export default Header;
