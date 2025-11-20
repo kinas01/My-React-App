@@ -1,0 +1,35 @@
+
+import ProductCard from "./ProductCard";
+
+
+function Practice() {
+    return(
+        <div style={{padding: "20px"}}>
+            <h2> React Practice Section</h2>
+            <p> We will practice Props, State, Hooks, Lists, Events, and more here.</p>
+
+            <ProductCard
+            tittle="Wireless Earbuds"
+            price="N10,000"
+            description="High quality"
+            />
+
+             <ProductCard 
+        title="Bluetooth Speaker"
+        price="₦9,000"
+        description="Portable speaker with deep bass."
+      />
+
+      <ProductCard 
+        title="Smart Watch"
+        price="₦18,000"
+        description="Tracks fitness, notifications, and heart rate."
+      />
+
+        </div>
+    );
+}
+
+
+
+export default Practice;
