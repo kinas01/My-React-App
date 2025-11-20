@@ -1,4 +1,5 @@
 
+import Greeting from "./Greeting";
 import ProductCard from "./ProductCard";
 
 
@@ -25,6 +26,13 @@ function Practice() {
         price="₦18,000"
         description="Tracks fitness, notifications, and heart rate."
       />
+
+
+      <Greeting name="kinas"
+                 age={22}
+                 name="Bariyaa"
+                 age={30}
+                 />
 
         </div>
     );
