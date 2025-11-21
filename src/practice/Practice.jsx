@@ -1,6 +1,7 @@
 
 import Greeting from "./Greeting";
 import ProductCard from "./ProductCard";
+import State from "./State";
 
 
 function Practice() {
@@ -33,6 +34,9 @@ function Practice() {
                  name="Bariyaa"
                  age={30}
                  />
+
+
+       <State />          
 
         </div>
     );
