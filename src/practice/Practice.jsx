@@ -2,6 +2,7 @@
 import Greeting from "./Greeting";
 import ProductCard from "./ProductCard";
 import State from "./State";
+import Events from "./Event";
 
 
 function Practice() {
@@ -36,7 +37,9 @@ function Practice() {
                  />
 
 
-       <State />          
+       <State /> 
+
+       <Events />         
 
         </div>
     );
