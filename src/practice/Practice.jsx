@@ -4,6 +4,7 @@ import ProductCard from "./ProductCard";
 import State from "./State";
 import Events from "./Event";
 import Conditional from "./Conditional";
+import List from "./List";
 
 
 function Practice() {
@@ -42,7 +43,9 @@ function Practice() {
 
        <Events /> 
 
-       <Conditional />        
+       <Conditional /> 
+
+       <List />       
 
         </div>
     );
