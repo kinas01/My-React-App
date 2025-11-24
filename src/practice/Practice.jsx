@@ -3,6 +3,7 @@ import Greeting from "./Greeting";
 import ProductCard from "./ProductCard";
 import State from "./State";
 import Events from "./Event";
+import Conditional from "./Conditional";
 
 
 function Practice() {
@@ -39,7 +40,9 @@ function Practice() {
 
        <State /> 
 
-       <Events />         
+       <Events /> 
+
+       <Conditional />        
 
         </div>
     );
