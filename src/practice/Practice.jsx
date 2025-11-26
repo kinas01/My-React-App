@@ -5,6 +5,7 @@ import State from "./State";
 import Events from "./Event";
 import Conditional from "./Conditional";
 import List from "./List";
+import Hooks from "./Hooks";
 
 
 function Practice() {
@@ -45,7 +46,9 @@ function Practice() {
 
        <Conditional /> 
 
-       <List />       
+       <List />  
+
+       <Hooks />     
 
         </div>
     );
